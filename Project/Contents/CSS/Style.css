@@ -1,0 +1,154 @@
+.conteneur{
+    text-decoration-color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+table, tr, td{
+  display: flex;
+}
+
+fieldset{
+    border-radius: 1em;
+    display:flex;
+}
+
+#EVAC{
+    display: flex;
+    text-align: center;
+    margin-left: 5em;
+}
+
+#Tchat{
+    /*margin-right: 90em;*/
+    min-width: 25em;
+    min-height: 45em;
+    display:flex;
+    flex : 1;
+}
+
+#Map{
+    text-align: center;
+    /*margin-right: 30em;
+    margin-left: 30em;*/
+    max-width: 55em;
+    min-height: 45em;
+    display:flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+#Info{
+    /*margin-left: 90em;*/
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 25em;
+    min-height: 45em;
+}
+
+#Navigation{
+    /*margin-top: 47em;*/
+    text-align: center;
+    height: 2em;
+    display:flex;
+}
+
+#Ville{
+    text-align: center;
+    max-width: 54em;
+    max-height: 33em;
+    z-index: 0;
+    display: flex;
+}
+
+.Ambulance, .Helicoptere{
+  width: 6em;
+  height: 6em;
+}
+
+#VehiculeInfo{
+  display:flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#ListeHopitaux{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: .8rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  height: 160px;
+}
+
+#TableauBlesses{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: .8rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  height: 220px;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+
+}
+
+td[scope="row"] {
+    background-color: #d7d9f2;
+
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td,th {
+    text-align: center;
+    width: auto;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+.Nom{
+  width: 1.5cm;
+}
+
+.Place{
+  width: 2cm;
+}
+
+.Temps{
+  width: 3cm;
+}
+
+.Selection{
+  width: 2.4cm;
+}
+
+.Bouton{
+  margin-top: 0.5em;
+}
+
+.PV{
+  width: 2cm;
+}
+
+.BlessuresT{
+  width: 3cm;
+}
